@@ -1,0 +1,120 @@
+{
+  "query": "\n  mutation SubmitApplication(\n    $product: ProductSelection,\n    $appData: AppDataInput,\n    $ids: IDs!,\n    $isSubmit: Boolean!\n  ) {\n    submitApplication(\n      product: $product,\n      appData: $appData,\n      ids: $ids,\n      isSubmit: $isSubmit,\n    ) {\n      basket\n      orders{\n        orderID{\n          orderNumber\n          version\n        }\n        message\n      }\n    }\n  }\n",
+  "variables": {
+    "appData": {
+      "address": {
+        "isMailingDifferent": true,
+        "mailingAddress": {
+          "suburb": "Melbourne",
+          "state": "VIC",
+          "postcode": "3000",
+          "propertyName": "",
+          "unit": "1p",
+          "streetNumber": "268",
+          "streetName": "Flinders",
+          "streetType": "ST"
+        },
+        "residentialAddress": {
+          "suburb": "Docklands",
+          "state": "VIC",
+          "postcode": "3008",
+          "propertyName": "",
+          "unit": "1p",
+          "streetNumber": "833",
+          "streetName": "Collins",
+          "streetType": "ST"
+        }
+      },
+      "card": {
+        "cardDesign": "blue",
+        "cardType": "ANZAccessVisaDebit",
+        "contactlessBehaviour": "Tap and Pin",
+        "linkageNumber": 2
+      },
+      "contactNumbers": {
+        "mobileNumber": "0403987567"
+      },
+      "crs": {
+        "isAustralianTaxResidentOnly": "false",
+        "countryCount": 1,
+        "countries": [
+          {
+            "taxResidentCountry": "IN",
+            "hasTin": "false",
+            "tin": "",
+            "tinUnavailableReason": "C-TIN APPLIED FOR",
+            "tinUnavailableExplanation": ""
+          }
+        ]
+      },
+      "customer": {
+        "existingCustomer": false
+      },
+      "declaration": {
+        "card": {
+          "consent": true,
+          "text": "I/We request that ANZ issue me/us with a debit card to access the account."
+        },
+        "primaryProduct": "AA",
+        "privacy": {
+          "consent": true,
+          "text": "I/We have read and accept the <a href=\"https://www.anz.com/australia/apply/Privacy-Confidentiality.asp\" rel=\"noopener norefferrer\" target=\"_blank\">Privacy and confidentiality conditions.</a>"
+        },
+        "promotionalMaterial": {
+          "consent": true,
+          "text": "I/We wish to receive <a href=\"https://www.anz.com/australia/apply/Promotional-Materials.asp\" rel=\"noopener norefferrer\" target=\"_blank\">promotional material</a> (including promotional electronic messages) from time to time about products and services of ANZ, its subsidiaries and corporate partners."
+        },
+        "taxResidency": {
+          "consent": true,
+          "text": "I/We will let you know within 30 days if my/our tax residency details change."
+        },
+        "termsAndConditions": {
+          "consent": true,
+          "text": "<p>I/We have read and accept the <a href=\"https://www.anz.com.au/support/rates-fees-terms/fees-terms-conditions/bank-accounts/\" rel=\"noopener norefferrer\" target=\"_blank\">ANZ Saving & Transaction Products - Terms and Conditions</a>, <a href=\"https://www.anz.com.au/support/rates-fees-terms/fees-terms-conditions/bank-accounts/\" rel=\"noopener norefferrer\" target=\"_blank\">ANZ Personal Banking Account Fees and Charges booklet</a> and the <a href=\"https://www.anz.com.au/support/rates-fees-terms/fees-terms-conditions/bank-accounts/\" rel=\"noopener norefferrer\" target=\"_blank\">Financial Services Guide</a> for this/these product(s) and I/we agree to receive these documents by accessing them electronically from <a href=\"https://www.anz.com/\" rel=\"noopener norefferrer\" target=\"_blank\">www.anz.com</a>. </p><p>I/We agree to ANZ charging me the monthly account service fee on the ANZ Access Advantage account which is currently $5.</p><p>I acknowledge that in consenting to receive these documents electronically that:</p><ul><li>I/We will not receive a paper copy of these documents;</li><li>I/We must check my/our electronic communications regularly;</li><li>I/We may retain copies of these documents by printing or saving these documents; and</li><li>I/We can vary my/our nominated email address, request a paper copy of these documents, or withdraw my/our consent to receiving these documents electronically at any time by calling 13 13 14</li></ul>"
+        }
+      },
+      "personal": {
+        "title": "mr",
+        "gender": null,
+        "firstName": "Christian",
+        "middleName": "Mandela",
+        "lastName": "Johnson",
+        "dateOfBirth": "10 02 1981",
+        "email": "Christian.Johnson@gmail.com"
+      },
+      "verbalSecurity": {
+        "code": "wedf"
+      }
+    },
+    "ids": {
+      "traceID": "df921ee0-a401-4ef4-bbd0-860dfb4821bb",
+      "basket": "41652",
+      "orderIDIn": [
+        {
+          "orderNumber": "1000041471",
+          "version": "6"
+        }
+      ],
+      "threat": null
+    },
+    "isSubmit": true,
+    "product": {
+      "channel": "I",
+      "mapping": [
+        {
+          "orderType": "sola",
+          "product": [
+            {
+              "appSourceCode": "QMV",
+              "appSourceCountry": "AU",
+              "currencyCode": "AUD",
+              "productType": "AA",
+              "productCode": "DDA",
+              "subProductCode": "PT"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

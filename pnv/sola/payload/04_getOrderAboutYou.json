@@ -1,0 +1,42 @@
+{
+  "query": "\n  mutation SubmitApplication(\n    $product: ProductSelection,\n    $appData: AppDataInput,\n    $ids: IDs!,\n    $isSubmit: Boolean!\n  ) {\n    submitApplication(\n      product: $product,\n      appData: $appData,\n      ids: $ids,\n      isSubmit: $isSubmit,\n    ) {\n      basket\n      orders{\n        orderID{\n          orderNumber\n          version\n        }\n        message\n      }\n    }\n  }\n",
+  "variables": {
+    "appData": {
+      "personal": {
+        "title": "mr",
+        "gender": null,
+        "firstName": "Christian",
+        "middleName": "Mandela",
+        "lastName": "Johnson",
+        "dateOfBirth": "10 02 1981",
+        "email": "Christian.Johnson@gmail.com"
+      },
+      "customer": {
+        "existingCustomer": false
+      }
+    },
+    "ids": {
+      "threat": null,
+      "traceID": "9e3bbb7b-921e-48e0-8c33-d7ce03f73946"
+    },
+    "isSubmit": false,
+    "product": {
+      "channel": "I",
+      "mapping": [
+        {
+          "orderType": "sola",
+          "product": [
+            {
+              "appSourceCode": "QMV",
+              "appSourceCountry": "AU",
+              "currencyCode": "AUD",
+              "productType": "AA",
+              "productCode": "DDA",
+              "subProductCode": "PT"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

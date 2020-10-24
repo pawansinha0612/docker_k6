@@ -1,0 +1,64 @@
+function (request, state, logger) {
+
+    var fs = require('fs');
+    var path = require('path');
+    var util = require('util');
+    var response,i,j, rspFilename;
+    var crnvalue = [];
+    var requestBody = util.inspect(request['body'],false, null);
+    logger.info("Request body is "+ request.body);
+    var jsonRequestBody = JSON.parse(request.body);
+    var crn;
+        var crnlength = parseInt(Object.keys(jsonRequestBody.crn).length);
+        logger.info("CRNLENGTH is :"+ crnlength);
+
+        for (i=0;i<crnlength;i++)
+        {
+            crnvalue[i] =jsonRequestBody.crn[i];
+        }
+
+var JSONPathLookuP = path.join('ConfigFiles','Mappers','IBService','UserProfile','UserProfile.json');
+
+var obj = JSON.parse(fs.readFileSync(JSONPathLookuP));
+
+var LookUpLen = Object.keys(obj.UserProfile).length;
+
+
+for(i=0;i<LookUpLen;i++)
+{
+var crnlengthexpected = parseInt(obj.UserProfile[i].crnlength);
+
+if(crnlength==crnlengthexpected)
+{
+rspFilename = obj.UserProfile[i].ResponseFile;
+logger.info(rspFilename);
+
+var JSONPath = path.join('ConfigFiles','Templates','IBService','UserProfile', rspFilename);
+response = JSON.parse(fs.readFileSync(JSONPath));
+logger.info("Response is :"+ response);
+
+break;
+}
+
+}
+response = JSON.stringify(response);
+
+for (i = 0;i<crnlength;i++)
+{
+    response = response.replace(JSON.parse(response).userDetails[i].crn, crnvalue[i]);
+}
+
+    logger.info("---------Response Sent Successfully--------"+ rspFilename + response);
+
+    return {
+
+        headers: {
+    
+                "HTTP-Response-Code": 200,
+                "HTTP-Response-Code-Text": "OK",
+                "Content-Type": "application/json"
+          },
+          "statusCode": "200",
+          body: response
+        };
+}

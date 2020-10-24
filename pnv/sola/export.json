@@ -1,0 +1,752 @@
+{
+    "metrics": {
+        "00_getProduct": {
+            "avg": 83.994,
+            "max": 83.994,
+            "med": 83.994,
+            "min": 83.994,
+            "p(90)": 83.994,
+            "p(95)": 83.994,
+            "thresholds": {
+                "p(95)<3000": false
+            }
+        },
+        "00_getProduct_Pass_Count": {
+            "count": 1,
+            "rate": 0.013005065779065118
+        },
+        "00_getProduct_Pass_Rate": {
+            "fails": 0,
+            "passes": 1,
+            "value": 0
+        },
+        "01_getJWT": {
+            "avg": 135.884,
+            "max": 135.884,
+            "med": 135.884,
+            "min": 135.884,
+            "p(90)": 135.884,
+            "p(95)": 135.884,
+            "thresholds": {
+                "p(95)<3000": false
+            }
+        },
+        "01_getJWT_Pass_Count": {
+            "count": 1,
+            "rate": 0.013005065779065118
+        },
+        "01_getJWT_Pass_Rate": {
+            "fails": 0,
+            "passes": 1,
+            "value": 0
+        },
+        "02_getSchema": {
+            "avg": 30.362,
+            "max": 30.362,
+            "med": 30.362,
+            "min": 30.362,
+            "p(90)": 30.362,
+            "p(95)": 30.362,
+            "thresholds": {
+                "p(95)<3000": false
+            }
+        },
+        "02_getSchema_Pass_Count": {
+            "count": 1,
+            "rate": 0.013005065779065118
+        },
+        "02_getSchema_Pass_Rate": {
+            "fails": 0,
+            "passes": 1,
+            "value": 0
+        },
+        "03_getReferenceData": {
+            "avg": 52.622,
+            "max": 52.622,
+            "med": 52.622,
+            "min": 52.622,
+            "p(90)": 52.622,
+            "p(95)": 52.622,
+            "thresholds": {
+                "p(95)<3000": false
+            }
+        },
+        "03_getReferenceData_Pass_Count": {
+            "count": 1,
+            "rate": 0.013005065779065118
+        },
+        "03_getReferenceData_Pass_Rate": {
+            "fails": 0,
+            "passes": 1,
+            "value": 0
+        },
+        "04_getOrderAboutYou": {
+            "avg": 586.611,
+            "max": 586.611,
+            "med": 586.611,
+            "min": 586.611,
+            "p(90)": 586.611,
+            "p(95)": 586.611,
+            "thresholds": {
+                "p(95)<3000": false
+            }
+        },
+        "04_getOrderAboutYou_Pass_Count": {
+            "count": 1,
+            "rate": 0.013005065779065118
+        },
+        "04_getOrderAboutYou_Pass_Rate": {
+            "fails": 0,
+            "passes": 1,
+            "value": 0
+        },
+        "05_addAddressDetails": {
+            "avg": 345.222,
+            "max": 345.222,
+            "med": 345.222,
+            "min": 345.222,
+            "p(90)": 345.222,
+            "p(95)": 345.222,
+            "thresholds": {
+                "p(95)<3000": false
+            }
+        },
+        "05_addAddressDetails_Pass_Count": {
+            "count": 1,
+            "rate": 0.013005065779065118
+        },
+        "05_addAddressDetails_Pass_Rate": {
+            "fails": 0,
+            "passes": 1,
+            "value": 0
+        },
+        "06_addContactNumber": {
+            "avg": 306.131,
+            "max": 306.131,
+            "med": 306.131,
+            "min": 306.131,
+            "p(90)": 306.131,
+            "p(95)": 306.131,
+            "thresholds": {
+                "p(95)<3000": false
+            }
+        },
+        "06_addContactNumber_Pass_Count": {
+            "count": 1,
+            "rate": 0.013005065779065118
+        },
+        "06_addContactNumber_Pass_Rate": {
+            "fails": 0,
+            "passes": 1,
+            "value": 0
+        },
+        "07_addTaxResidency": {
+            "avg": 268.777,
+            "max": 268.777,
+            "med": 268.777,
+            "min": 268.777,
+            "p(90)": 268.777,
+            "p(95)": 268.777,
+            "thresholds": {
+                "p(95)<3000": false
+            }
+        },
+        "07_addTaxResidency_Pass_Count": {
+            "count": 1,
+            "rate": 0.013005065779065118
+        },
+        "07_addTaxResidency_Pass_Rate": {
+            "fails": 0,
+            "passes": 1,
+            "value": 0
+        },
+        "08_addIdentityAndSecurity": {
+            "avg": 262.304,
+            "max": 262.304,
+            "med": 262.304,
+            "min": 262.304,
+            "p(90)": 262.304,
+            "p(95)": 262.304,
+            "thresholds": {
+                "p(95)<3000": false
+            }
+        },
+        "08_addIdentityAndSecurity_Pass_Count": {
+            "count": 1,
+            "rate": 0.013005065779065118
+        },
+        "08_addIdentityAndSecurity_Pass_Rate": {
+            "fails": 0,
+            "passes": 1,
+            "value": 0
+        },
+        "09_addCardColor": {
+            "avg": 272.449,
+            "max": 272.449,
+            "med": 272.449,
+            "min": 272.449,
+            "p(90)": 272.449,
+            "p(95)": 272.449,
+            "thresholds": {
+                "p(95)<3000": false
+            }
+        },
+        "09_addCardColor_Pass_Count": {
+            "count": 1,
+            "rate": 0.013005065779065118
+        },
+        "09_addCardColor_Pass_Rate": {
+            "fails": 0,
+            "passes": 1,
+            "value": 0
+        },
+        "10_submitApplication": {
+            "avg": 294.658,
+            "max": 294.658,
+            "med": 294.658,
+            "min": 294.658,
+            "p(90)": 294.658,
+            "p(95)": 294.658,
+            "thresholds": {
+                "p(95)<3000": false
+            }
+        },
+        "10_submitApplication_Pass_Count": {
+            "count": 1,
+            "rate": 0.013005065779065118
+        },
+        "10_submitApplication_Pass_Rate": {
+            "fails": 0,
+            "passes": 1,
+            "value": 0
+        },
+        "11_submitApplication_statusCheck": {
+            "avg": 244.2458333333333,
+            "max": 400.241,
+            "med": 206.434,
+            "min": 183.494,
+            "p(90)": 339.08349999999996,
+            "p(95)": 369.66225,
+            "thresholds": {
+                "p(95)<3000": false
+            }
+        },
+        "11_submitApplication_statusCheck_Pass_Count": {
+            "count": 6,
+            "rate": 0.07803039467439071
+        },
+        "11_submitApplication_statusCheck_Pass_Rate": {
+            "fails": 0,
+            "passes": 6,
+            "value": 0
+        },
+        "12_submitApplication_getAccountAndCustomer": {
+            "avg": 529.58,
+            "max": 529.58,
+            "med": 529.58,
+            "min": 529.58,
+            "p(90)": 529.58,
+            "p(95)": 529.58,
+            "thresholds": {
+                "p(95)<3000": false
+            }
+        },
+        "12_submitApplication_getAccountAndCustomer_Pass_Count": {
+            "count": 1,
+            "rate": 0.013005065779065118
+        },
+        "12_submitApplication_getAccountAndCustomer_Pass_Rate": {
+            "fails": 0,
+            "passes": 1,
+            "value": 0
+        },
+        "checks": {
+            "fails": 0,
+            "passes": 54,
+            "value": 0
+        },
+        "data_received": {
+            "count": 31800,
+            "rate": 413.5610917742708
+        },
+        "data_sent": {
+            "count": 24435,
+            "rate": 317.77878231145615
+        },
+        "group_duration": {
+            "avg": 271.6323515,
+            "max": 587.34087,
+            "med": 271.5186655,
+            "min": 31.720073,
+            "p(90)": 439.82745660000006,
+            "p(95)": 538.9783146
+        },
+        "http_req_blocked": {
+            "avg": 11.125500000000004,
+            "max": 200.247,
+            "med": 0.001,
+            "min": 0,
+            "p(90)": 0.001,
+            "p(95)": 30.03789999999972
+        },
+        "http_req_connecting": {
+            "avg": 7.366833333333334,
+            "max": 132.603,
+            "med": 0,
+            "min": 0,
+            "p(90)": 0,
+            "p(95)": 19.890449999999813
+        },
+        "http_req_duration": {
+            "avg": 257.4482777777778,
+            "max": 586.611,
+            "med": 265.54049999999995,
+            "min": 30.362,
+            "p(90)": 439.0427000000001,
+            "p(95)": 538.13465
+        },
+        "http_req_receiving": {
+            "avg": 0.12288888888888888,
+            "max": 0.579,
+            "med": 0.094,
+            "min": 0.072,
+            "p(90)": 0.126,
+            "p(95)": 0.19989999999999936
+        },
+        "http_req_sending": {
+            "avg": 0.1811111111111111,
+            "max": 0.365,
+            "med": 0.174,
+            "min": 0.122,
+            "p(90)": 0.2109,
+            "p(95)": 0.2357999999999998
+        },
+        "http_req_tls_handshaking": {
+            "avg": 1.7518888888888888,
+            "max": 31.534,
+            "med": 0,
+            "min": 0,
+            "p(90)": 0,
+            "p(95)": 4.730099999999955
+        },
+        "http_req_waiting": {
+            "avg": 257.14427777777775,
+            "max": 586.362,
+            "med": 265.2685,
+            "min": 30.069,
+            "p(90)": 438.7596000000001,
+            "p(95)": 537.8643999999999
+        },
+        "http_reqs": {
+            "count": 18,
+            "rate": 0.23409118402317214
+        },
+        "iteration_duration": {
+            "avg": 76893.113899,
+            "max": 76893.113899,
+            "med": 76893.113899,
+            "min": 76893.113899,
+            "p(90)": 76893.113899,
+            "p(95)": 76893.113899
+        },
+        "iterations": {
+            "count": 1,
+            "rate": 0.013005065779065118
+        },
+        "vus": {
+            "max": 1,
+            "min": 1,
+            "value": 1
+        },
+        "vus_max": {
+            "max": 1,
+            "min": 1,
+            "value": 1
+        }
+    },
+    "root_group": {
+        "name": "",
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {
+            "00_getProduct": {
+                "name": "00_getProduct",
+                "path": "::00_getProduct",
+                "id": "3fa8e96d4e1ed9f3c6a5efeee8b93e4d",
+                "groups": {},
+                "checks": {
+                    "content OK for 00_getProduct": {
+                        "name": "content OK for 00_getProduct",
+                        "path": "::00_getProduct::content OK for 00_getProduct",
+                        "id": "de43bdeba2ee8ed3c08128e9d1313eaa",
+                        "passes": 1,
+                        "fails": 0
+                    },
+                    "status was 200": {
+                        "name": "status was 200",
+                        "path": "::00_getProduct::status was 200",
+                        "id": "22a34b1c9074b2d522f062dd2710b520",
+                        "passes": 1,
+                        "fails": 0
+                    },
+                    "transaction time OK": {
+                        "name": "transaction time OK",
+                        "path": "::00_getProduct::transaction time OK",
+                        "id": "2608e40aa8b5b2ef4828a13aa48db923",
+                        "passes": 1,
+                        "fails": 0
+                    }
+                }
+            },
+            "01_getJWT": {
+                "name": "01_getJWT",
+                "path": "::01_getJWT",
+                "id": "92e3f6a7fdbd6ff2987bce5611ad151e",
+                "groups": {},
+                "checks": {
+                    "content OK for 01_getJWT": {
+                        "name": "content OK for 01_getJWT",
+                        "path": "::01_getJWT::content OK for 01_getJWT",
+                        "id": "b50e90dcecfb6d3e1edf2a62b8c7faed",
+                        "passes": 1,
+                        "fails": 0
+                    },
+                    "status was 200": {
+                        "name": "status was 200",
+                        "path": "::01_getJWT::status was 200",
+                        "id": "61c62d83927d63d1c57b5b86b0ed860b",
+                        "passes": 1,
+                        "fails": 0
+                    },
+                    "transaction time OK": {
+                        "name": "transaction time OK",
+                        "path": "::01_getJWT::transaction time OK",
+                        "id": "78fb3d01c08b179c1c00dc0fc2a5c1f1",
+                        "passes": 1,
+                        "fails": 0
+                    }
+                }
+            },
+            "02_getSchema": {
+                "name": "02_getSchema",
+                "path": "::02_getSchema",
+                "id": "9b52b39e347be182bfbdc182050aecf4",
+                "groups": {},
+                "checks": {
+                    "content OK for 02_getSchema": {
+                        "name": "content OK for 02_getSchema",
+                        "path": "::02_getSchema::content OK for 02_getSchema",
+                        "id": "e4563b2beeb1f13ecb85dd811827603a",
+                        "passes": 1,
+                        "fails": 0
+                    },
+                    "status was 200": {
+                        "name": "status was 200",
+                        "path": "::02_getSchema::status was 200",
+                        "id": "90c83c7fdc2676180b36adbd5b95c514",
+                        "passes": 1,
+                        "fails": 0
+                    },
+                    "transaction time OK": {
+                        "name": "transaction time OK",
+                        "path": "::02_getSchema::transaction time OK",
+                        "id": "d89d1c5d59f987123d0575a2a1904cf6",
+                        "passes": 1,
+                        "fails": 0
+                    }
+                }
+            },
+            "03_getReferenceData": {
+                "name": "03_getReferenceData",
+                "path": "::03_getReferenceData",
+                "id": "155a714e467d25625001d90494c41fb2",
+                "groups": {},
+                "checks": {
+                    "content OK for 03_getReferenceData": {
+                        "name": "content OK for 03_getReferenceData",
+                        "path": "::03_getReferenceData::content OK for 03_getReferenceData",
+                        "id": "a154bf72158aa6b761b8c35e012e9792",
+                        "passes": 1,
+                        "fails": 0
+                    },
+                    "status was 200": {
+                        "name": "status was 200",
+                        "path": "::03_getReferenceData::status was 200",
+                        "id": "f6e23fddb28dbf436daa7e165823f85d",
+                        "passes": 1,
+                        "fails": 0
+                    },
+                    "transaction time OK": {
+                        "name": "transaction time OK",
+                        "path": "::03_getReferenceData::transaction time OK",
+                        "id": "636f19e26c443415b6d8b9a2984a7112",
+                        "passes": 1,
+                        "fails": 0
+                    }
+                }
+            },
+            "04_getOrderAboutYou": {
+                "name": "04_getOrderAboutYou",
+                "path": "::04_getOrderAboutYou",
+                "id": "0fad591c45d5b7c08c01b7a08a49e5f8",
+                "groups": {},
+                "checks": {
+                    "content OK for 04_getOrderAboutYou": {
+                        "name": "content OK for 04_getOrderAboutYou",
+                        "path": "::04_getOrderAboutYou::content OK for 04_getOrderAboutYou",
+                        "id": "df19f706541839849291a267a8262d31",
+                        "passes": 1,
+                        "fails": 0
+                    },
+                    "status was 200": {
+                        "name": "status was 200",
+                        "path": "::04_getOrderAboutYou::status was 200",
+                        "id": "247a1b66c37aa1a404ef4b4f6ee36459",
+                        "passes": 1,
+                        "fails": 0
+                    },
+                    "transaction time OK": {
+                        "name": "transaction time OK",
+                        "path": "::04_getOrderAboutYou::transaction time OK",
+                        "id": "7d4e97fbf1295746dfc3b7dd0bc0cc3a",
+                        "passes": 1,
+                        "fails": 0
+                    }
+                }
+            },
+            "05_addAddressDetails": {
+                "name": "05_addAddressDetails",
+                "path": "::05_addAddressDetails",
+                "id": "e2846d1aeb9bbc61dcfb67b12f066c62",
+                "groups": {},
+                "checks": {
+                    "content OK for 05_addAddressDetails": {
+                        "name": "content OK for 05_addAddressDetails",
+                        "path": "::05_addAddressDetails::content OK for 05_addAddressDetails",
+                        "id": "e79dfe581d510ce2017d6d75a32370a7",
+                        "passes": 1,
+                        "fails": 0
+                    },
+                    "status was 200": {
+                        "name": "status was 200",
+                        "path": "::05_addAddressDetails::status was 200",
+                        "id": "feb492be5c997a3c64fa00d54e9ca458",
+                        "passes": 1,
+                        "fails": 0
+                    },
+                    "transaction time OK": {
+                        "name": "transaction time OK",
+                        "path": "::05_addAddressDetails::transaction time OK",
+                        "id": "7029f395fc79cc6c6c596caaeb38bd34",
+                        "passes": 1,
+                        "fails": 0
+                    }
+                }
+            },
+            "06_addContactNumber": {
+                "name": "06_addContactNumber",
+                "path": "::06_addContactNumber",
+                "id": "5f44336ce4a1c8f8140de7f3bd6d23e0",
+                "groups": {},
+                "checks": {
+                    "content OK for 06_addContactNumber": {
+                        "name": "content OK for 06_addContactNumber",
+                        "path": "::06_addContactNumber::content OK for 06_addContactNumber",
+                        "id": "4488ed01a509c67f9e192577d475a0bc",
+                        "passes": 1,
+                        "fails": 0
+                    },
+                    "status was 200": {
+                        "name": "status was 200",
+                        "path": "::06_addContactNumber::status was 200",
+                        "id": "26688985b662725f320ecc92a953865c",
+                        "passes": 1,
+                        "fails": 0
+                    },
+                    "transaction time OK": {
+                        "name": "transaction time OK",
+                        "path": "::06_addContactNumber::transaction time OK",
+                        "id": "79a0b22af2cbe1fa255ea07d4d8a6f32",
+                        "passes": 1,
+                        "fails": 0
+                    }
+                }
+            },
+            "07_addTaxResidency": {
+                "name": "07_addTaxResidency",
+                "path": "::07_addTaxResidency",
+                "id": "3ed1a6550d7a51da836d454990dcadaf",
+                "groups": {},
+                "checks": {
+                    "content OK for 07_addTaxResidency": {
+                        "name": "content OK for 07_addTaxResidency",
+                        "path": "::07_addTaxResidency::content OK for 07_addTaxResidency",
+                        "id": "54fe08b55c8010ade761b53444d571e3",
+                        "passes": 1,
+                        "fails": 0
+                    },
+                    "status was 200": {
+                        "name": "status was 200",
+                        "path": "::07_addTaxResidency::status was 200",
+                        "id": "94e4b8694288d7487cab71c12d126e8e",
+                        "passes": 1,
+                        "fails": 0
+                    },
+                    "transaction time OK": {
+                        "name": "transaction time OK",
+                        "path": "::07_addTaxResidency::transaction time OK",
+                        "id": "9868ff78d6d982d1e9c1c5f90d824d05",
+                        "passes": 1,
+                        "fails": 0
+                    }
+                }
+            },
+            "08_addIdentityAndSecurity": {
+                "name": "08_addIdentityAndSecurity",
+                "path": "::08_addIdentityAndSecurity",
+                "id": "3a487cc6e390be5c68dfd261979bd85e",
+                "groups": {},
+                "checks": {
+                    "content OK for 08_addIdentityAndSecurity": {
+                        "name": "content OK for 08_addIdentityAndSecurity",
+                        "path": "::08_addIdentityAndSecurity::content OK for 08_addIdentityAndSecurity",
+                        "id": "f774527d255601f6c60fd71210f40555",
+                        "passes": 1,
+                        "fails": 0
+                    },
+                    "status was 200": {
+                        "name": "status was 200",
+                        "path": "::08_addIdentityAndSecurity::status was 200",
+                        "id": "af95d960b7a483e532a5412eebfa77b1",
+                        "passes": 1,
+                        "fails": 0
+                    },
+                    "transaction time OK": {
+                        "name": "transaction time OK",
+                        "path": "::08_addIdentityAndSecurity::transaction time OK",
+                        "id": "a6661cf27e467953639c7e9032afde04",
+                        "passes": 1,
+                        "fails": 0
+                    }
+                }
+            },
+            "09_addCardColor": {
+                "name": "09_addCardColor",
+                "path": "::09_addCardColor",
+                "id": "cde0e1d57eaf9d1210b4c2873507847f",
+                "groups": {},
+                "checks": {
+                    "content OK for 09_addCardColor": {
+                        "name": "content OK for 09_addCardColor",
+                        "path": "::09_addCardColor::content OK for 09_addCardColor",
+                        "id": "23a5a1168da7a7ae4219332ca08325ea",
+                        "passes": 1,
+                        "fails": 0
+                    },
+                    "status was 200": {
+                        "name": "status was 200",
+                        "path": "::09_addCardColor::status was 200",
+                        "id": "c2cfc0223c8d5af53d8bb5ed87bcf118",
+                        "passes": 1,
+                        "fails": 0
+                    },
+                    "transaction time OK": {
+                        "name": "transaction time OK",
+                        "path": "::09_addCardColor::transaction time OK",
+                        "id": "50cc5512d84980badfeb9d9c5bf0e941",
+                        "passes": 1,
+                        "fails": 0
+                    }
+                }
+            },
+            "10_submitApplication": {
+                "name": "10_submitApplication",
+                "path": "::10_submitApplication",
+                "id": "d3369ba06e0bf8a3faf3b12e7376a69b",
+                "groups": {},
+                "checks": {
+                    "content OK for 10_submitApplication": {
+                        "name": "content OK for 10_submitApplication",
+                        "path": "::10_submitApplication::content OK for 10_submitApplication",
+                        "id": "9ada9bb19f1bda7804526ca91ec51d76",
+                        "passes": 1,
+                        "fails": 0
+                    },
+                    "status was 200": {
+                        "name": "status was 200",
+                        "path": "::10_submitApplication::status was 200",
+                        "id": "0ac40a08d6dbcbd2e0e34b255c7f51c7",
+                        "passes": 1,
+                        "fails": 0
+                    },
+                    "transaction time OK": {
+                        "name": "transaction time OK",
+                        "path": "::10_submitApplication::transaction time OK",
+                        "id": "3f137d310d9250cedf06a4e99152fe5d",
+                        "passes": 1,
+                        "fails": 0
+                    }
+                }
+            },
+            "11_submitApplication_statusCheck": {
+                "name": "11_submitApplication_statusCheck",
+                "path": "::11_submitApplication_statusCheck",
+                "id": "f3c78816a6d4a3b3c8aec1b29b493793",
+                "groups": {},
+                "checks": {
+                    "content OK for 11_submitApplication_statusCheck": {
+                        "name": "content OK for 11_submitApplication_statusCheck",
+                        "path": "::11_submitApplication_statusCheck::content OK for 11_submitApplication_statusCheck",
+                        "id": "6d42d339813541444d0b408973b6da2e",
+                        "passes": 6,
+                        "fails": 0
+                    },
+                    "status was 200": {
+                        "name": "status was 200",
+                        "path": "::11_submitApplication_statusCheck::status was 200",
+                        "id": "f6920e7b61a3780a687946e969ca9e96",
+                        "passes": 6,
+                        "fails": 0
+                    },
+                    "transaction time OK": {
+                        "name": "transaction time OK",
+                        "path": "::11_submitApplication_statusCheck::transaction time OK",
+                        "id": "c06f16904f2598ec81bee887cf00c7c6",
+                        "passes": 6,
+                        "fails": 0
+                    }
+                }
+            },
+            "12_submitApplication_getAccountAndCustomer": {
+                "name": "12_submitApplication_getAccountAndCustomer",
+                "path": "::12_submitApplication_getAccountAndCustomer",
+                "id": "594281c4d3d89f96d6fcbc8b40bbb999",
+                "groups": {},
+                "checks": {
+                    "content OK for 12_submitApplication_getAccountAndCustomer": {
+                        "name": "content OK for 12_submitApplication_getAccountAndCustomer",
+                        "path": "::12_submitApplication_getAccountAndCustomer::content OK for 12_submitApplication_getAccountAndCustomer",
+                        "id": "9b60bec719a53ac8b6808e96ba16585c",
+                        "passes": 1,
+                        "fails": 0
+                    },
+                    "status was 200": {
+                        "name": "status was 200",
+                        "path": "::12_submitApplication_getAccountAndCustomer::status was 200",
+                        "id": "659dff6fb2a0e8ed637e0dc0cf7d3071",
+                        "passes": 1,
+                        "fails": 0
+                    },
+                    "transaction time OK": {
+                        "name": "transaction time OK",
+                        "path": "::12_submitApplication_getAccountAndCustomer::transaction time OK",
+                        "id": "4a3e161ad693b271a439a3892d80fb03",
+                        "passes": 1,
+                        "fails": 0
+                    }
+                }
+            }
+        },
+        "checks": {}
+    }
+}

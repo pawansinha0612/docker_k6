@@ -1,0 +1,16 @@
+{
+  "crn": "550506311",
+  "anzsiid": "61290009",
+  "uuid": "6A80986A-E935-E511-813B-0033642DB6C1",
+  "cmcid": "87654323",
+  "enabledfor": [
+      "CMCWEB",
+      "CMCAPI"
+  ],
+  "provisionedfor": [
+      "CMCWEB",
+      "CMCAPI"
+  ],
+  "usernote": "The User is Valid",
+  "status": "active"
+}

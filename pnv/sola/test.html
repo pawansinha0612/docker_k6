@@ -1,0 +1,149 @@
+
+          /\      |‾‾|  /‾‾/  /‾/   
+     /\  /  \     |  |_/  /  / /    
+    /  \/    \    |      |  /  ‾‾\  
+   /          \   |  |‾\  \ | (_) | 
+  / __________ \  |__|  \__\ \___/ .io
+
+    init [----------------------------------------------------------] runner    init [----------------------------------------------------------] options    init [----------------------------------------------------------] executor    init [----------------------------------------------------------]   engine    init [----------------------------------------------------------]   collector    init [----------------------------------------------------------]   server  execution: local
+     output: -
+     script: pnv.js
+
+    duration: -, iterations: 1
+         vus: 1, max: 1
+
+    init [----------------------------------------------------------] starting
+    █ 06_addContactNumber
+
+      ✓ status was 200
+      ✓ transaction time OK
+      ✓ content OK for 06_addContactNumber
+
+    █ 12_submitApplication_getAccountAndCustomer
+
+      ✓ status was 200
+      ✓ transaction time OK
+      ✓ content OK for 12_submitApplication_getAccountAndCustomer
+
+    █ 00_getProduct
+
+      ✓ content OK for 00_getProduct
+      ✓ status was 200
+      ✓ transaction time OK
+
+    █ 01_getJWT
+
+      ✓ status was 200
+      ✓ transaction time OK
+      ✓ content OK for 01_getJWT
+
+    █ 02_getSchema
+
+      ✓ status was 200
+      ✓ transaction time OK
+      ✓ content OK for 02_getSchema
+
+    █ 03_getReferenceData
+
+      ✓ status was 200
+      ✓ transaction time OK
+      ✓ content OK for 03_getReferenceData
+
+    █ 04_getOrderAboutYou
+
+      ✓ status was 200
+      ✓ transaction time OK
+      ✓ content OK for 04_getOrderAboutYou
+
+    █ 11_submitApplication_statusCheck
+
+      ✓ content OK for 11_submitApplication_statusCheck
+      ✓ status was 200
+      ✓ transaction time OK
+
+    █ 05_addAddressDetails
+
+      ✓ status was 200
+      ✓ transaction time OK
+      ✓ content OK for 05_addAddressDetails
+
+    █ 07_addTaxResidency
+
+      ✓ status was 200
+      ✓ transaction time OK
+      ✓ content OK for 07_addTaxResidency
+
+    █ 08_addIdentityAndSecurity
+
+      ✓ status was 200
+      ✓ transaction time OK
+      ✓ content OK for 08_addIdentityAndSecurity
+
+    █ 09_addCardColor
+
+      ✓ status was 200
+      ✓ transaction time OK
+      ✓ content OK for 09_addCardColor
+
+    █ 10_submitApplication
+
+      ✓ status was 200
+      ✓ transaction time OK
+      ✓ content OK for 10_submitApplication
+
+  ✓ 00_getProduct...........................................: avg=23.74     min=23.74   med=23.74    max=23.74    p(90)=23.74    p(95)=23.74   
+    00_getProduct_Pass_Count................................: 1       0.017889/s
+    00_getProduct_Pass_Rate.................................: 100.00% ✓ 1   ✗ 0  
+  ✓ 01_getJWT...............................................: avg=159.158   min=159.158 med=159.158  max=159.158  p(90)=159.158  p(95)=159.158 
+    01_getJWT_Pass_Count....................................: 1       0.017889/s
+    01_getJWT_Pass_Rate.....................................: 100.00% ✓ 1   ✗ 0  
+  ✓ 02_getSchema............................................: avg=27.194    min=27.194  med=27.194   max=27.194   p(90)=27.194   p(95)=27.194  
+    02_getSchema_Pass_Count.................................: 1       0.017889/s
+    02_getSchema_Pass_Rate..................................: 100.00% ✓ 1   ✗ 0  
+  ✓ 03_getReferenceData.....................................: avg=231.333   min=231.333 med=231.333  max=231.333  p(90)=231.333  p(95)=231.333 
+    03_getReferenceData_Pass_Count..........................: 1       0.017889/s
+    03_getReferenceData_Pass_Rate...........................: 100.00% ✓ 1   ✗ 0  
+  ✓ 04_getOrderAboutYou.....................................: avg=454.049   min=454.049 med=454.049  max=454.049  p(90)=454.049  p(95)=454.049 
+    04_getOrderAboutYou_Pass_Count..........................: 1       0.017889/s
+    04_getOrderAboutYou_Pass_Rate...........................: 100.00% ✓ 1   ✗ 0  
+  ✓ 05_addAddressDetails....................................: avg=349.384   min=349.384 med=349.384  max=349.384  p(90)=349.384  p(95)=349.384 
+    05_addAddressDetails_Pass_Count.........................: 1       0.017889/s
+    05_addAddressDetails_Pass_Rate..........................: 100.00% ✓ 1   ✗ 0  
+  ✓ 06_addContactNumber.....................................: avg=289.956   min=289.956 med=289.956  max=289.956  p(90)=289.956  p(95)=289.956 
+    06_addContactNumber_Pass_Count..........................: 1       0.017889/s
+    06_addContactNumber_Pass_Rate...........................: 100.00% ✓ 1   ✗ 0  
+  ✓ 07_addTaxResidency......................................: avg=298.114   min=298.114 med=298.114  max=298.114  p(90)=298.114  p(95)=298.114 
+    07_addTaxResidency_Pass_Count...........................: 1       0.017889/s
+    07_addTaxResidency_Pass_Rate............................: 100.00% ✓ 1   ✗ 0  
+  ✓ 08_addIdentityAndSecurity...............................: avg=262.274   min=262.274 med=262.274  max=262.274  p(90)=262.274  p(95)=262.274 
+    08_addIdentityAndSecurity_Pass_Count....................: 1       0.017889/s
+    08_addIdentityAndSecurity_Pass_Rate.....................: 100.00% ✓ 1   ✗ 0  
+  ✓ 09_addCardColor.........................................: avg=262.043   min=262.043 med=262.043  max=262.043  p(90)=262.043  p(95)=262.043 
+    09_addCardColor_Pass_Count..............................: 1       0.017889/s
+    09_addCardColor_Pass_Rate...............................: 100.00% ✓ 1   ✗ 0  
+  ✓ 10_submitApplication....................................: avg=258.491   min=258.491 med=258.491  max=258.491  p(90)=258.491  p(95)=258.491 
+    10_submitApplication_Pass_Count.........................: 1       0.017889/s
+    10_submitApplication_Pass_Rate..........................: 100.00% ✓ 1   ✗ 0  
+  ✓ 11_submitApplication_statusCheck........................: avg=174.84225 min=129.283 med=175.2185 max=219.649  p(90)=209.347  p(95)=214.498 
+    11_submitApplication_statusCheck_Pass_Count.............: 4       0.071556/s
+    11_submitApplication_statusCheck_Pass_Rate..............: 100.00% ✓ 4   ✗ 0  
+  ✓ 12_submitApplication_getAccountAndCustomer..............: avg=509.307   min=509.307 med=509.307  max=509.307  p(90)=509.307  p(95)=509.307 
+    12_submitApplication_getAccountAndCustomer_Pass_Count...: 1       0.017889/s
+    12_submitApplication_getAccountAndCustomer_Pass_Rate....: 100.00% ✓ 1   ✗ 0  
+    checks..................................................: 100.00% ✓ 48  ✗ 0  
+    data_received...........................................: 31 kB   561 B/s
+    data_sent...............................................: 23 kB   414 B/s
+    group_duration..........................................: avg=243.54ms  min=30.45ms med=247.89ms max=510.34ms p(90)=402.79ms p(95)=469.03ms
+    http_req_blocked........................................: avg=3.16ms    min=0s      med=1µs      max=50.56ms  p(90)=1.5µs    p(95)=12.64ms 
+    http_req_connecting.....................................: avg=1.44ms    min=0s      med=0s       max=23.11ms  p(90)=0s       p(95)=5.77ms  
+    http_req_duration.......................................: avg=239.02ms  min=23.74ms med=244.91ms max=509.3ms  p(90)=401.71ms p(95)=467.86ms
+    http_req_receiving......................................: avg=172.18µs  min=80µs    med=119µs    max=661µs    p(90)=309.5µs  p(95)=478.75µs
+    http_req_sending........................................: avg=261.74µs  min=158µs   med=215.5µs  max=924µs    p(90)=321µs    p(95)=504µs   
+    http_req_tls_handshaking................................: avg=1.58ms    min=0s      med=0s       max=25.42ms  p(90)=0s       p(95)=6.35ms  
+    http_req_waiting........................................: avg=238.59ms  min=23.21ms med=244.33ms max=508.91ms p(90)=401.34ms p(95)=467.46ms
+    http_reqs...............................................: 16      0.286224/s
+    iteration_duration......................................: avg=55.9s     min=55.9s   med=55.9s    max=55.9s    p(90)=55.9s    p(95)=55.9s   
+    iterations..............................................: 1       0.017889/s
+    vus.....................................................: 1       min=1 max=1
+    vus_max.................................................: 1       min=1 max=1
+

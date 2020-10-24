@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:web="http://www.mclsoftware.co.uk/HunterII/WebServices">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <web:MatchResponse>
+            <web:MatchResult>
+                <![CDATA[
+                    <ResultBlock>
+                        <MatchSummary matches="0">
+                            <TotalMatchScore>160</TotalMatchScore>
+                            <Rules totalRuleCount="2">
+                                <Rule ruleCount="1">
+                                    <RuleID>VAL_Inter_Branch_4</RuleID>
+                                    <Score>60</Score>
+                                </Rule>
+                                <Rule ruleCount="1">
+                                    <RuleID>TEST_EARLIEST_VERSION_MATCH</RuleID>
+                                    <Score>100</Score>
+                                </Rule>
+                            </Rules>
+                            <MatchSchemes schemeCount="2">
+                                <Scheme>
+                                    <SchemeID>14</SchemeID>
+                                    <Score>100</Score>
+                                </Scheme>
+                                <Scheme>
+                                    <SchemeID>19</SchemeID>
+                                    <Score>60</Score>
+                                </Scheme>
+                            </MatchSchemes>
+                        </MatchSummary>
+                        <ErrorWarnings>
+                            <Errors errorCount="0" />
+                            <Warnings warningCount="2">
+                                <Warning>
+                                    <Number>102009</Number>
+                                    <Message>Match schemes not used</Message>
+                                    <Values>
+                                        <Value>39</Value>
+                                    </Values>
+                                </Warning>
+                                <Warning>
+                                    <Number>104001</Number>
+                                    <Message>One or more versions of the requested submission do not have a score</Message>
+                                    <Values />
+                                </Warning>
+                            </Warnings>
+                        </ErrorWarnings>
+                    </ResultBlock>
+                ]]>
+            </web:MatchResult>
+        </web:MatchResponse>
+    </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,103 @@
+{ "name":"IBService",
+	"port": 31102,
+	"protocol": "http",
+	"stubs": [{
+		"responses": [{
+			"is": {
+				"statusCode": 200,
+				"headers": {
+					"HTTP-Response-Code": 200,
+					"HTTP-Response-Code-Text": "OK",
+					"Content-Type": "application/json"
+				},
+				"body": "<%- stringify(filename, 'Templates/IBService/Response_update-preference.json') %>"
+			}
+		}],
+		"predicates": [
+		{
+			"equals": {
+						"method":"PUT",
+						"path":"/IBAU/BANKAWAYWEBAPI/user-profile/v1/update-preference/"
+			}
+		}]
+	},
+	{
+		"responses": [{
+
+			"inject": "<%- stringify(filename, 'Scripts/IBService/IBServiceRegistrationmatchScript.ejs') %>"
+		}],
+		"predicates": [
+			{
+				"equals": {
+							"method":"POST",
+							"path":"/IBAU/BANKAWAYWEBAPI/user-profile/v1/registration/"
+				}
+			}]
+	},
+	{
+
+        "responses": [{
+
+
+
+            "inject": "<%- stringify(filename, 'Scripts/IBService/IBGetUUIDs.ejs') %>"
+
+        }],
+
+        "predicates": [
+
+            {
+
+                "equals": {
+
+                            "method":"POST",
+
+                            "path": "/crns/ib-status"
+
+                }
+
+            }]
+
+	},
+	{
+
+		"responses": [{
+			"is": {
+				"statusCode": 200,
+				"headers": {
+					"HTTP-Response-Code": 200,
+					"HTTP-Response-Code-Text": "OK",
+					"Content-Type": "application/json"
+				},
+				"body": "<%- stringify(filename, 'Templates/ShareInvest/BDSShareInvest.json') %>"
+			}	
+		}],
+
+        "predicates": [
+
+            {
+
+                "equals": {
+
+                            "method":"POST",
+
+                            "path": "/identities/share-investing-ids"
+
+                }
+
+            }]
+
+    },
+	{
+		"responses": [{
+
+			"inject": "<%- stringify(filename, 'Scripts/IBService/IBServiceuserprofilematchScript.ejs') %>"
+		}],
+		"predicates": [{
+			"equals": {
+				"method": "POST",
+				"path": "/IBAU/BANKAWAYWEBAPI/users/v1/user-profiles/"
+			}
+		}]
+	}]
+}

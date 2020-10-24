@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope
+    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <urn:DeviceResponse
+            xmlns:urn="urn:mclsoftware.co.uk:hunterII">
+            <TransactionID>c11ba00e-e49d-40ca-8d1a-bfeee68e28ba</TransactionID>
+            <ReturnCode>000a0</ReturnCode>
+            <ReturnDetails>Successful Transaction</ReturnDetails>
+        </urn:DeviceResponse>
+    </soap:Body>
+</soap:Envelope>

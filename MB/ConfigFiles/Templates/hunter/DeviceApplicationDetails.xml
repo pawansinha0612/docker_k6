@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <MatchResponse xmlns="http://www.mclsoftware.co.uk/HunterII/WebServices">
+            <MatchResult>
+                <![CDATA[
+                    <ResultBlock>
+                        <MatchSummary matches="0">
+                            <TotalMatchScore>160</TotalMatchScore>
+                            <Rules totalRuleCount="2">
+                                <Rule ruleCount="1">
+                                    <RuleID>VAL_Inter_Branch_4</RuleID>
+                                    <Score>60</Score>
+                                </Rule>
+                                <Rule ruleCount="1">
+                                    <RuleID>TEST_EARLIEST_VERSION_MATCH</RuleID>
+                                    <Score>100</Score>
+                                </Rule>
+                            </Rules>
+                            <MatchSchemes schemeCount="2">
+                                <Scheme>
+                                    <SchemeID>14</SchemeID>
+                                    <Score>100</Score>
+                                </Scheme>
+                                <Scheme>
+                                    <SchemeID>19</SchemeID>
+                                    <Score>60</Score>
+                                </Scheme>
+                            </MatchSchemes>
+                        </MatchSummary>
+                        <ErrorWarnings>
+                            <Errors errorCount="0" />
+                            <Warnings warningCount="0" />
+                        </ErrorWarnings>
+                    </ResultBlock>
+                ]]>
+            </MatchResult>
+        </MatchResponse>
+    </soapenv:Body>
+</soapenv:Envelope>

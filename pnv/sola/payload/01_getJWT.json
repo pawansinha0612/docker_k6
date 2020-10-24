@@ -1,0 +1,7 @@
+{
+    "query": "\nquery getJWT($orderType: OrderType!, $traceID: ID!){\n  getAuthData(\n    req:{\n      orderType: $orderType\n      traceID: $traceID\n    })\n  {\n    jwtToken\n    uuid\n    expiresIn\n  }\n}",
+    "variables": {
+        "orderType": "sola",
+        "traceID": "5ca34540-d6c7-42be-9c21-0cce2b411f69"
+    }
+}

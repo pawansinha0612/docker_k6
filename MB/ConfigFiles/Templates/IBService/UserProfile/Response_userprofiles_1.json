@@ -1,0 +1,11 @@
+{
+    "userDetails": [
+        {
+            "crn": "crnValue1",
+            "registrationStatus": "Registered",
+            "lastLogonDate": "2014-02-10T16:26:47.757+11:00",
+            "emailAddress": "test@anz.com",
+            "uuid": "D4EDBD70-7896-E611-8AB2-0022642DB6CE"
+        }
+    ]
+}

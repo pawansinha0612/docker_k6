@@ -1,0 +1,14 @@
+{
+  "query": "\n  query GetSchema($schemaReq: SchemaRequest!) {\n    getSchema(req: $schemaReq) {\n      validationSchemaJSON\n    }\n  }\n",
+  "variables": {
+     "schemaReq": {
+        "authDataIn": {
+           "jwtToken": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImF1cmV0YWlsc2h2ZHB0c3QuZGV2LmFueiJ9.eyJpYXQiOjE1ODU2OTk5NTIuOTk2LCJleHAiOjE1ODU3MDE3NTIuOTk3LCJhdWQiOiJzb2xhIiwiaXNzIjoiaHR0cHM6Ly9kYXRhcG93ZXItdmRwdW5hdXRoZWNvbS5hbnouY29tIiwic3ViIjoiVVVJRC9kMWM0OWU5MC01ZjViLTQ5NDktYjFhNi05MjRjYmMzNDhhYTQiLCJzY29wZXMiOlsiQVUuVU5BVVRIRU5USUNBVEVEIl0sImFjciI6IklBTDEuQUFMMC5GQUwxIiwiYW1yIjpbXX0.ETuZkOQYb0NswOuiFS9d3N3PIbg7g2foqgDmbSORbF1Nh2Z1WA4KMaIFW3Tm-2FPqW2kzyN0Ewt1xIKdv5T0s30wSOmZarHBLDw4g8Q77JLahuxhy_tr8Bibacu2AQpvMhJSmoVyys4inUPzEn6iJe5nyCR9pkaT9_RF6SOgHI9yT5HPXSzATLjhk59lw_8i9vO5UL6UjYLewQsfoytShh1HKHt5hTmro4-evw5mnDvQ7UF0Jh1LcgRTDLVb5dZBaCJVsUndFBnmZdLkI0_cR4YQfI_2dCezotsnTZyWpa8Gx0NFH4_2dQCz9YFO-I-yrD6nls5TPvMx3-p9gDeSsQ",
+           "expiresIn": 1585701752,
+           "uuid": "d1c49e90-5f5b-4949-b1a6-924cbc348aa4"
+        },
+        "traceID": "62101947-103f-4047-a154-1a53808094d5",
+        "orderType": "sola"
+     }
+  }
+}

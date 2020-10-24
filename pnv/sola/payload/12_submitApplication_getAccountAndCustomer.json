@@ -1,0 +1,10 @@
+{
+    "query": "\n  query GetAccountAndCustomer (\n    $orderType: OrderType!,\n    $traceID: ID!,\n    $orderNumbers: [ID!]!\n  ){\n    getCustomer(req:{\n      orderType: $orderType,\n      traceID: $traceID,\n      orderNumbers: $orderNumbers\n    })\n    {\n      customers{\n        orderID{\n          orderNumber\n          version\n        }\n        crn\n        kycStatus\n      }\n    }\n    getAccount(req:{\n      orderType: $orderType,\n      traceID: $traceID,\n      orderNumbers: $orderNumbers\n    })\n    {\n      accounts{\n        orderID{\n          orderNumber\n          version\n        }\n        bsb\n        accountNumber\n        accountName\n        accountType\n      }\n    }\n  }\n",
+    "variables": {
+        "orderNumbers": [
+            "1000041471"
+        ],
+        "orderType": "sola",
+        "traceID": "df921ee0-a401-4ef4-bbd0-860dfb4821bb"
+    }
+}

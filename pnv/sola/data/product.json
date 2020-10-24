@@ -1,0 +1,254 @@
+[
+  {
+    "productType": "AA",
+    "appSourceCode": "QMV"
+  },
+  {
+    "productType": "OS",
+    "appSourceCode": "QMV"
+  },
+  {
+    "productType": "PS",
+    "appSourceCode": "QMV"
+  },
+  {
+    "productType": "AA",
+    "appSourceCode": "ZZZ"
+  },
+  {
+    "productType": "OS",
+    "appSourceCode": "ZZZ"
+  },
+  {
+    "productType": "PS",
+    "appSourceCode": "ZZZ"
+  },
+  {
+    "productType": "AA",
+    "appSourceCode": "YYY"
+  },
+  {
+    "productType": "OS",
+    "appSourceCode": "YYY"
+  },
+  {
+    "productType": "PS",
+    "appSourceCode": "YYY"
+  },
+  {
+    "productType": "AA",
+    "appSourceCode": "OCE"
+  },
+  {
+    "productType": "OS",
+    "appSourceCode": "OCE"
+  },
+  {
+    "productType": "PS",
+    "appSourceCode": "OCE"
+  },
+  {
+    "productType": "AA",
+    "appSourceCode": "RHU"
+  },
+  {
+    "productType": "OS",
+    "appSourceCode": "RHU"
+  },
+  {
+    "productType": "PS",
+    "appSourceCode": "RHU"
+  },
+  {
+    "productType": "AA",
+    "appSourceCode": "RHW"
+  },
+  {
+    "productType": "OS",
+    "appSourceCode": "RHW"
+  },
+  {
+    "productType": "PS",
+    "appSourceCode": "RHW"
+  },
+  {
+    "productType": "AA",
+    "appSourceCode": "RHS"
+  },
+  {
+    "productType": "OS",
+    "appSourceCode": "RHS"
+  },
+  {
+    "productType": "PS",
+    "appSourceCode": "RHS"
+  },
+  {
+    "productType": "AA",
+    "appSourceCode": "QEN"
+  },
+  {
+    "productType": "OS",
+    "appSourceCode": "QEN"
+  },
+  {
+    "productType": "PS",
+    "appSourceCode": "QEN"
+  },
+  {
+    "productType": "AA",
+    "appSourceCode": "RHV"
+  },
+  {
+    "productType": "OS",
+    "appSourceCode": "RHV"
+  },
+  {
+    "productType": "PS",
+    "appSourceCode": "RHV"
+  },
+  {
+    "productType": "AA",
+    "appSourceCode": "RDO"
+  },
+  {
+    "productType": "OS",
+    "appSourceCode": "RDO"
+  },
+  {
+    "productType": "PS",
+    "appSourceCode": "RDO"
+  },
+  {
+    "productType": "AA",
+    "appSourceCode": "RIE"
+  },
+  {
+    "productType": "OS",
+    "appSourceCode": "RIE"
+  },
+  {
+    "productType": "PS",
+    "appSourceCode": "RIE"
+  },
+  {
+    "productType": "AA",
+    "appSourceCode": "QKY"
+  },
+  {
+    "productType": "OS",
+    "appSourceCode": "QKY"
+  },
+  {
+    "productType": "PS",
+    "appSourceCode": "QKY"
+  },
+  {
+    "productType": "AA",
+    "appSourceCode": "RAB"
+  },
+  {
+    "productType": "OS",
+    "appSourceCode": "RAB"
+  },
+  {
+    "productType": "PS",
+    "appSourceCode": "RAB"
+  },
+  {
+    "productType": "AA",
+    "appSourceCode": "QGB"
+  },
+  {
+    "productType": "OS",
+    "appSourceCode": "QGB"
+  },
+  {
+    "productType": "PS",
+    "appSourceCode": "QGB"
+  },
+  {
+    "productType": "AA",
+    "appSourceCode": "RIL"
+  },
+  {
+    "productType": "OS",
+    "appSourceCode": "RIL"
+  },
+  {
+    "productType": "PS",
+    "appSourceCode": "RIL"
+  },
+  {
+    "productType": "AA",
+    "appSourceCode": "RIK"
+  },
+  {
+    "productType": "OS",
+    "appSourceCode": "RIK"
+  },
+  {
+    "productType": "PS",
+    "appSourceCode": "RIK"
+  },
+  {
+    "productType": "AA",
+    "appSourceCode": "RIJ"
+  },
+  {
+    "productType": "OS",
+    "appSourceCode": "RIJ"
+  },
+  {
+    "productType": "PS",
+    "appSourceCode": "RIJ"
+  },
+  {
+    "productType": "AA",
+    "appSourceCode": "RII"
+  },
+  {
+    "productType": "OS",
+    "appSourceCode": "RII"
+  },
+  {
+    "productType": "PS",
+    "appSourceCode": "RII"
+  },
+  {
+    "productType": "AA",
+    "appSourceCode": "RIF"
+  },
+  {
+    "productType": "OS",
+    "appSourceCode": "RIF"
+  },
+  {
+    "productType": "PS",
+    "appSourceCode": "RIF"
+  },
+  {
+    "productType": "AA",
+    "appSourceCode": "REY"
+  },
+  {
+    "productType": "OS",
+    "appSourceCode": "REY"
+  },
+  {
+    "productType": "PS",
+    "appSourceCode": "REY"
+  },
+  {
+    "productType": "AA",
+    "appSourceCode": "RFG"
+  },
+  {
+    "productType": "OS",
+    "appSourceCode": "RFG"
+  },
+  {
+    "productType": "PS",
+    "appSourceCode": "RFG"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "query": "\n  query GetReferenceData($refDataReq: RefDataRequest!) {\n    getReferenceData(req: $refDataReq) {\n      states: stateCode {\n        value: code\n        label: value\n      }\n      streetTypes: streetType {\n        value\n        label: code\n      }\n      crsNoTINReasons: crsNoTINReasons {\n        value: code\n        label: value\n      }\n      countries: governedCountryCode {\n        value: altKey1\n        label: shortName\n      }\n      individualCountryCode: individualCountryCode {\n        value: key\n      }\n    }\n  }\n",
+  "variables": {
+    "refDataReq": {
+      "authData": {
+        "jwtToken": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImF1cmV0YWlsc2h2ZHB0c3QuZGV2LmFueiJ9.eyJpYXQiOjE1ODU4MDYxMzcuMzIzLCJleHAiOjE1ODU4MDc5MzcuMzI0LCJhdWQiOiJzb2xhIiwiaXNzIjoiaHR0cHM6Ly9kYXRhcG93ZXItdmRwdW5hdXRoZWNvbS5hbnouY29tIiwic3ViIjoiVVVJRC81NWMwMGYyNy1lMjY4LTQ4ODQtOWFiYS05MjRjYmMzNDE3MDYiLCJzY29wZXMiOlsiQVUuVU5BVVRIRU5USUNBVEVEIl0sImFjciI6IklBTDEuQUFMMC5GQUwxIiwiYW1yIjpbXX0.bFTn6FfhhP_odwRGYF0M7sEDDezMSob7tqbFotTip7vMJC1P0MAFjch93WUruatA87bQBPPu8QMsEc3W39hP9Wva9MhQhECIkcA8Qp35PIKuynLsLWZ0sXI7E5sGohPqSnRkRvYVnAGXBNmt6ipMubsBZ07dSeJ9LgkizpLVDD-KvAu5jk7IdzSh-cg-ABc_FLeGmtoJHua3LOgh3zmYIkwMLMWa5hGVaeJZUqIHh8tsr0va8sRlnLN7TS7ME2XWdMLkrCdI_K-MIOpwcqPrNkHP2rDl1r2Fzs-xME6G-cd8_VKZ2xblUJRCxsQ_p3I9t7femWhC23CarlpK--Jv2Q",
+        "expiresIn": 1585701752,
+        "uuid": "d1c49e90-5f5b-4949-b1a6-924cbc348aa4"
+      },
+      "traceID": "27d027cd-9ef5-43e0-a2b6-9695d0e99254",
+      "orderType": "sola",
+      "refDataTypes": [
+        "stateCode",
+        "streetType",
+        "crsNoTINReasons",
+        "governedCountryCode",
+        "individualCountryCode"
+      ]
+    }
+  }
+}

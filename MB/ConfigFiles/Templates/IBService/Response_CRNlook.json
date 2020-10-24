@@ -1,0 +1,58 @@
+{
+                                  "userDetails": [
+                                    {
+                                      "crn": "542230326",
+                                      "ctmStatus": null,
+                                      "uuid": "ADD84F97-575A-E811-80D6-00155D211C71",
+                                      "registrationStatus": "Registered",
+                                      "lastLogonDate": "2018-09-18T06:55:03.493Z",
+                                      "emailAddress": "dfg@anz.com",
+                                      "profileStatus": "Locked"
+                                    },
+                                    {
+                                      "crn": "549429335",
+                                      "ctmStatus": null,
+                                      "uuid": "E81498F2-2BC3-E611-8DF0-0022642DB6C2",
+                                      "registrationStatus": "Registered",
+                                      "lastLogonDate": "2018-09-07T01:18:18.397Z",
+                                      "emailAddress": "chen@anz.com",
+                                      "profileStatus": null
+                                    },
+                                    {
+                                      "crn": "550155316",
+                                      "ctmStatus": null,
+                                      "uuid": "AED84F97-575A-E811-80D6-00155D211C71",
+                                      "registrationStatus": "Registered",
+                                      "lastLogonDate": "2018-09-07T01:18:36.687Z",
+                                      "emailAddress": "abn@anz.com",
+                                      "profileStatus": null
+                                    },
+                                    {
+                                      "crn": "550155332",
+                                      "ctmStatus": null,
+                                      "uuid": "AFD84F97-575A-E811-80D6-00155D211C71",
+                                      "registrationStatus": "Registered",
+                                      "lastLogonDate": "2018-08-13T02:10:50.667Z",
+                                      "emailAddress": "abc@anz.com",
+                                      "profileStatus": null
+                                    },
+                                    {
+                                      "crn": "560254100634034",
+                                      "ctmStatus": null,
+                                      "uuid": "B0D84F97-575A-E811-80D6-00155D211C71",
+                                      "registrationStatus": "Registered",
+                                      "lastLogonDate": "2018-06-18T03:55:35.553Z",
+                                      "emailAddress": "abc@anz.com",
+                                      "profileStatus": "Locked"
+                                    },
+                                    {
+                                      "crn": "4560045003233680",
+                                      "ctmStatus": null,
+                                      "uuid": "B1D84F97-575A-E811-80D6-00155D211C71",
+                                      "registrationStatus": "Registered",
+                                      "lastLogonDate": "2018-06-18T04:18:33.827Z",
+                                      "emailAddress": "abcv@anz.com",
+                                      "profileStatus": "Suspended"
+                                    }
+                                  ]
+                                }

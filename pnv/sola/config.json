@@ -1,0 +1,61 @@
+{
+  "thinkTime": 1,
+  "thinkTime1": 10,
+  "log": "true",
+  "SLA": {
+    "getJWT": 3000,
+    "getSchemaF": 3000,
+    "getProductF": 3000,
+    "getReferenceDataF": 3000,
+    "getOrderF": 3000,
+    "getAddressF": 3000,
+    "getContactF": 3000,
+    "getTaxResidencyF": 3000,
+    "addIdentityAndSecurityF": 3000,
+    "addCardColorF": 3000,
+    "submitApplicationF": 3000,
+    "submitApplication_statusCheckF": 3000,
+    "submitApplication_getAccountAndCustomerF": 3000
+  },
+  "thresholds": {
+    "00_getProduct": [
+      "p(95)<3000"
+    ],
+    "01_getJWT": [
+      "p(95)<3000"
+    ],
+    "02_getSchema": [
+      "p(95)<3000"
+    ],
+    "03_getReferenceData": [
+      "p(95)<3000"
+    ],
+    "04_getOrderAboutYou": [
+      "p(95)<3000"
+    ],
+    "05_addAddressDetails": [
+      "p(95)<3000"
+    ],
+    "06_addContactNumber": [
+      "p(95)<3000"
+    ],
+    "07_addTaxResidency": [
+      "p(95)<3000"
+    ],
+    "08_addIdentityAndSecurity": [
+      "p(95)<3000"
+    ],
+    "09_addCardColor": [
+      "p(95)<3000"
+    ],
+    "10_submitApplication": [
+      "p(95)<3000"
+    ],
+    "11_submitApplication_statusCheck": [
+      "p(95)<3000"
+    ],
+    "12_submitApplication_getAccountAndCustomer": [
+      "p(95)<3000"
+    ]
+  }
+}

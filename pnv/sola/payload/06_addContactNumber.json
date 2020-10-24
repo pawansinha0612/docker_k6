@@ -1,0 +1,75 @@
+{
+  "query": "\n  mutation SubmitApplication(\n    $product: ProductSelection,\n    $appData: AppDataInput,\n    $ids: IDs!,\n    $isSubmit: Boolean!\n  ) {\n    submitApplication(\n      product: $product,\n      appData: $appData,\n      ids: $ids,\n      isSubmit: $isSubmit,\n    ) {\n      basket\n      orders{\n        orderID{\n          orderNumber\n          version\n        }\n        message\n      }\n    }\n  }\n",
+  "variables": {
+    "appData": {
+      "address": {
+        "isMailingDifferent": true,
+        "mailingAddress": {
+          "suburb": "Melbourne",
+          "state": "VIC",
+          "postcode": "3000",
+          "propertyName": "",
+          "unit": "1p",
+          "streetNumber": "268",
+          "streetName": "Flinders",
+          "streetType": "ST"
+        },
+        "residentialAddress": {
+          "suburb": "Docklands",
+          "state": "VIC",
+          "postcode": "3008",
+          "propertyName": "",
+          "unit": "1p",
+          "streetNumber": "833",
+          "streetName": "Collins",
+          "streetType": "ST"
+        }
+      },
+      "contactNumbers": {
+        "mobileNumber": "0403987567"
+      },
+      "customer": {
+        "existingCustomer": false
+      },
+      "personal": {
+        "title": "mr",
+        "gender": null,
+        "firstName": "Christian",
+        "middleName": "Mandela",
+        "lastName": "Johnson",
+        "dateOfBirth": "10 02 1981",
+        "email": "Christian.Johnson@gmail.com"
+      }
+    },
+    "ids": {
+      "basket": "41652",
+      "orderIDIn": [
+        {
+          "orderNumber": "1000041471",
+          "version": "2"
+        }
+      ],
+      "threat": null,
+      "traceID": "431ac061-4c97-46d4-94f7-eabc9cd80ae8"
+    },
+    "isSubmit": false,
+    "product": {
+      "channel": "I",
+      "mapping": [
+        {
+          "orderType": "sola",
+          "product": [
+            {
+              "appSourceCode": "QMV",
+              "appSourceCountry": "AU",
+              "currencyCode": "AUD",
+              "productType": "AA",
+              "productCode": "DDA",
+              "subProductCode": "PT"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

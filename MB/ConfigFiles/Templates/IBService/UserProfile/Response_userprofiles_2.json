@@ -1,0 +1,20 @@
+{
+    "userDetails": [
+        {
+            "crn": "crnValue1",
+            "registrationStatus": "Registered",
+            "lastLogonDate": "2010-07-23T18:24:51.800+10:00",
+            "emailAddress": "naga@anz.com",
+            "uuid": "D882CF66-AE0F-E711-BAE4-0022642DB6CE"
+        },
+        {
+            "crn": "crnValue2",
+            "registrationStatus": "Registered",
+            "lastLogonDate": "2017-07-10T13:45:55.903+10:00",
+            "emailAddress": "shami@amz.com",
+            "uuid": "32C0E8EC-1F1C-E611-A058-0022642DB6CE"
+        }
+
+        
+    ]
+}

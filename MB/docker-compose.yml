@@ -1,0 +1,41 @@
+version: "3.4"
+
+services:
+  mountebank:
+    image: jkris/mountebank:latest
+    volumes:
+    - /Users/sinhap3/Stubs/MB:/MB
+    ports:
+    - 2525:2525
+    - 4577:4577
+    - 31102:31102
+    command: 
+    - --configfile MB/ConfigFiles/imposter-pnv.ejs --allowInjection
+
+  k6:
+    container_name: k6MB
+    image: loadimpact/k6:latest
+    ports:
+      - "6565:6565"
+    environment:
+      - K6_OUT=influxdb=http://influxdb:8086/k6
+    volumes:
+      - /Users/sinhap3/Stubs/MB/Scripts:/scripts
+
+  influxdb:
+    image: influxdb:latest
+    ports:
+      - "8086:8086"
+    environment:
+      - INFLUXDB_DB=k6
+
+  grafana:
+    image: grafana/grafana:latest
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_AUTH_ANONYMOUS_ORG_ROLE=Admin
+      - GF_AUTH_ANONYMOUS_ENABLED=true
+      - GF_AUTH_BASIC_ENABLED=false
+    volumes:
+       - /Users/sinhap3/Stubs/MB:/etc/grafana/provisioning/

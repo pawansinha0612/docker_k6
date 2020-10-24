@@ -1,0 +1,51 @@
+{ "name":"Hunter",
+	"port": 4577,
+	"protocol": "http",
+	"stubs": [{
+		"responses": [{
+			"is": {
+				"statusCode": 200,
+				"headers": {
+					"HTTP-Response-Code": 200,
+					"HTTP-Response-Code-Text": "OK",
+					"Content-Type": "application/xml"
+				},
+				"body": "<%- stringify(filename, 'Templates/hunter/DeviceProfileDetails.xml') %>"
+			}
+		}],
+		"predicates": [{
+
+			"equals": {
+				"method": "POST",
+				"path": "/Hunter/DeviceProfileDetails/v1"
+            },
+            "matches": {
+				"body": "[^]*"
+			}
+		}]
+    },
+    {
+		"responses": [{
+			"is": {
+				"statusCode": 200,
+				"headers": {
+					"HTTP-Response-Code": 200,
+					"HTTP-Response-Code-Text": "OK",
+					"Content-Type": "application/xml"
+				},
+				"body": "<%- stringify(filename, 'Templates/hunter/DeviceApplicationDetails.xml') %>"
+			}
+		}],
+		"predicates": [{
+
+			"equals": {
+				"method": "GET",
+				"path": "/Hunter/DeviceApplicationDetails/v1"
+			},
+            "matches": {
+				"body": "[^]*"
+			}
+		}]
+    }
+    ]
+}

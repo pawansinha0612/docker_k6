@@ -1,0 +1,12 @@
+version: "3"
+services:
+  influxdb:
+    container_name: influxdb
+    image: influxdb:latest
+    volumes:
+    - /Users/sinhap3/Stubs/MB/influxdb:/Users/sinhap3/Stubs/MB/influxdb
+    ports:
+    - 8086:8086
+    command: 
+    - influxd
+    

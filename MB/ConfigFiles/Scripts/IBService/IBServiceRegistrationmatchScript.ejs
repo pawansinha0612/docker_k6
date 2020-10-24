@@ -1,0 +1,32 @@
+function (request, state, logger) {
+
+    var fs = require('fs');
+    var path = require('path');
+    var util = require('util');
+    var response, rspFilename;
+    var requestBody = util.inspect(request['body'],false, null);
+    var jsonRequestBody = JSON.parse(request.body);
+    var crn;
+    logger.info("Request"+requestBody);
+    logger.info("request.body is:"+ request.body);
+
+        crn = jsonRequestBody.crn[0];
+
+        rspFilename = "Response_registration.json";
+        response = "<%- stringify(filename, 'Templates/IBService/Response_registration.json') %>"
+        response = response.replace(JSON.parse(response).userDetails.crn,crn);
+
+        logger.info("---------Response Sent Successfully--------"+ rspFilename + response);
+
+    return {
+
+        headers: {
+    
+                "HTTP-Response-Code": 200,
+                "HTTP-Response-Code-Text": "OK",
+                "Content-Type": "application/json"
+          },
+          "statusCode": "200",
+          body: response
+        };
+}
