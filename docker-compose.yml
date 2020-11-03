@@ -26,7 +26,7 @@ services:
       - GF_AUTH_ANONYMOUS_ENABLED=true
       - GF_AUTH_BASIC_ENABLED=false
     volumes:
-       - /Users/sinhap3/Stubs:/etc/grafana/provisioning/
+       - /Users/sinhap3/Documents/docker_k6:/etc/grafana/provisioning/
 
   k6:
     image: loadimpact/k6:latest
@@ -37,6 +37,6 @@ services:
     environment:
       - K6_OUT=influxdb=http://influxdb:8086/k6
     volumes:
-      - /Users/sinhap3/Stubs/pnv/sola:/scripts
+      - /Users/sinhap3/Documents/docker_k6/pnv/sola:/scripts
     # command:
     #   - k6 run -e ENVIRONMENT=onyx -c /Users/sinhap3/Stubs/pnv/sola/config.json /Users/sinhap3/Stubs/pnv/sola/pnv.js --insecure-skip-tls-verify
